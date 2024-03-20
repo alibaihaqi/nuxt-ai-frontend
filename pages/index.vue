@@ -1,9 +1,13 @@
 <template>
-  <main class="min-h-svh flex items-center justify-center">
+  <main class="min-h-svh flex flex-col items-center justify-center">
+    <CommonTitle
+      title="Alibaihaqi AI"
+    />
     <HomeAiSection />
   </main>
 </template>
 
 <script lang="ts" setup>
-import HomeAiSection from '@/components/sections/home/HomeAiSection.vue'
+import CommonTitle from '@/components/Common/CommonTitle.vue'
+import HomeAiSection from '@/components/section/home/HomeAiSection.vue'
 </script>
