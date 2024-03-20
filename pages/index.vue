@@ -9,5 +9,5 @@
 
 <script lang="ts" setup>
 import CommonTitle from '@/components/Common/CommonTitle.vue'
-import HomeAiSection from '@/components/section/home/HomeAiSection.vue'
+import HomeAiSection from '@/components/Section/home/HomeAiSection.vue'
 </script>
