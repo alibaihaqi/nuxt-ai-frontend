@@ -8,4 +8,8 @@
 
 <script lang="ts" setup>
 import CommonTitle from '@/components/Common/CommonTitle.vue'
+
+useHead({
+  title: 'OpenAI Image',
+})
 </script>

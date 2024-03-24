@@ -49,7 +49,10 @@ import type { GeminiChatResponse } from '@/types/Gemini/GeminiChat'
 import { MdPreview } from 'md-editor-v3'
 import 'md-editor-v3/lib/preview.css'
 
-const mode = ref('dark')
+useHead({
+  title: 'Gemini Chat',
+})
+
 const inputData = ref('')
 const isRequestData = ref(false)
 const result = ref('')
