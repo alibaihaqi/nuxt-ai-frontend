@@ -12,6 +12,19 @@ export default defineNuxtConfig({
     '@pinia/nuxt',
     'nuxt-icon',
   ],
+  app: {
+    head: {
+      meta: [
+        { name: 'viewport', content: 'width=device-width, initial-scale=1' }
+      ],
+    },
+  },
+  runtimeConfig: {
+    public: {
+      apiDomain: '',
+      isUseGeminiStream: '',
+    },
+  },
   colorMode: {
     classSuffix: ''
   },
