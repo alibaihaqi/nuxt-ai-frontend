@@ -4,14 +4,14 @@
       title="Gemini Chat"
     />
 
-    <section class="flex flex-col gap-2 w-[90%] sm:max-w-[50%]">
-      <p class="text-sm text-gray-900 dark:text-white">
+    <section class="flex flex-col gap-4 w-[90%] sm:max-w-[50%]">
+      <p class="text-sm text-gray-700 dark:text-white">
         Input Message
       </p>
 
       <textarea
         v-model="inputData"
-        class="text-gray-900 border border-gray-900 rounded-md px-3 py-2 focus:outline-none focus:border-sky-500 focus:ring-1 focus:ring-sky-500"
+        class="text-gray-700 border border-gray-700 rounded-md px-3 py-2 focus:outline-none focus:border-sky-500 focus:ring-1 focus:ring-sky-500"
         type="text"
       />
 
