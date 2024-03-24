@@ -17,6 +17,7 @@
   "dependencies": {
     "@nuxtjs/robots": "^3.0.0",
     "@pinia/nuxt": "^0.5.1",
+    "md-editor-v3": "^4.12.2",
     "nuxt": "^3.10.3",
     "vue": "^3.4.21",
     "vue-router": "^4.3.0"
