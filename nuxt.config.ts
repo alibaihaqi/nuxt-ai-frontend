@@ -14,8 +14,10 @@ export default defineNuxtConfig({
   ],
   app: {
     head: {
+      title: 'Alibaihaqi AI',
+      titleTemplate: '%s - Alibaihaqi AI',
       meta: [
-        { name: 'viewport', content: 'width=device-width, initial-scale=1' }
+        { name: 'viewport', content: 'width=device-width, initial-scale=1', 'data-n-head': 'ssr' },
       ],
     },
   },
